@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+img {
+  margin-left: 375px;
+}
+
+.players-starships-logo {
+  border-top: 1px solid yellow;
+  padding-top: 30px;
+}
+
+.players-starships-logo img {
+  cursor: pointer;
+}
