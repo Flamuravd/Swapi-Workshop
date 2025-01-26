@@ -13,9 +13,7 @@ function fetchData(type, pageUrl) {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      console.log("Fetched data:", data);
-      displayTable(data.results, type);  
-      renderPagination(data, type);     
+      console.log("Fetched data:", data);    
     })
     .catch((error) => console.error("Error fetching data:", error));
 }
