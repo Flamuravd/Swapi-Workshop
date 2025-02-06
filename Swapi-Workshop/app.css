@@ -1,14 +1,19 @@
 body {
   background-color: black;
+  text-align: center;
 }
 
 img {
-  margin-left: 375px;
+  margin: auto;
+  display: block;
 }
 
 .players-starships-logo {
   border-top: 1px solid yellow;
   padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .players-starships-logo img {
